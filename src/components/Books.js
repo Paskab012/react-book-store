@@ -6,9 +6,9 @@ import AddBook from './Addbook';
 function Books({ books }) {
   return (
     <>
-      {books.map((book) => {
-        <Book key={book.id} book={book} />;
-      })}
+      {books.map((book) => (
+        <Book key={book.id} book={book} />
+      ))}
       <AddBook />
     </>
   );
