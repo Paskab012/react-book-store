@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# BOOKSTORE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Bookstore app is a web applicaton  that helps users to keep track to their local items(books). by adding, deleting and updating items(books) in the store by fetching API using technologies such as React/Redux.
+## View
 
-## Available Scripts
+Not yet available
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- REACT
+- CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Demo (if available)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Not yet available!
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+By running this project loccally, you will be required yo have:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- A computer having diffents browsers
+- VSCode, node installed
+- Clone the app by running `git clone https://github.com/KABIKA681/react-book-store.git `
+- Few knowledge about Node package module(npm) to start the app.
+- Run `npm start` after installing dependencies in order to run the app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Setup, Install, and Usage
 
-### `npm run eject`
+Follow these steps to install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- You will need to install webpack
+- linters
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Authors
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+👤 **PASCAL KABIKA MP.**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- GitHub: [KABIKA681](https://github.com/KABIKA681?tab=overview&from=2021-12-01&to=2021-12-31)
+- [LinkedIn](https://www.linkedin.com/in/pascal-kabika-443061220/)
 
-## Learn More
+## 🤝 Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions, issues, and feature requests are welcome!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to check the [issues page](https://github.com/KABIKA681/React-calculator/issues).
 
-### Code Splitting
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Give a ⭐️ if you like this project!
 
-### Analyzing the Bundle Size
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Hat tip to the Microverse team for the guidance and reviews.
 
-### Making a Progressive Web App
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
