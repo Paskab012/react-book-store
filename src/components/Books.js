@@ -1,21 +1,21 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import Book from './Book';
 import AddBook from './Addbook';
 
-function Books({books}) {
+function Books({ books }) {
   return (
     <>
-      {books.map((book) =>{
-          <Book key={book.id} book={book} />
+      {books.map((book) => {
+        <Book key={book.id} book={book} />;
       })}
-      <AddBook/>
+      <AddBook />
     </>
-  )
+  );
 }
 
 Books.propTypes = {
-    books: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+  books: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
 };
 
-export default Books
+export default Books;
