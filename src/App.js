@@ -1,5 +1,8 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { connect } from 'react-redux';
+import dispatchToProps from './redux/addProps';
+import stateToProps from './redux/addState';
 import Navbar from './components/Navbar';
 import Books from './components/Books';
 import Categories from './components/Categories';
@@ -25,4 +28,4 @@ function App() {
   );
 }
 
-export default App;
+export default connect(stateToProps, dispatchToProps)(App);
