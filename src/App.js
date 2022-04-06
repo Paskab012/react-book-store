@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Books from './components/Books';
 import Categories from './components/Categories';
 
-
 function App() {
   return (
     <div>
@@ -16,3 +15,4 @@ function App() {
     </div>
   );
 }
+export default App;

@@ -6,13 +6,13 @@ export const addBook = (book) => ({ type: ADD_BOOK, payload: book });
 export const removeBook = (id) => ({ type: REMOVE_BOOK, payload: id });
 
 const initialState = [{
-    id: 1,
-    genre: 'genre',
-    title: 'title',
-    author: 'author',
-}]
+  id: 1,
+  genre: 'genre',
+  title: 'title',
+  author: 'author',
+}];
 
-export default function  booksReducer(state = initialState, action = {}) {
+export default function booksReducer(state = initialState, action = {}) {
   switch (action.type) {
     case ADD_BOOK:
       return { ...state, book: action.payload };
@@ -21,4 +21,4 @@ export default function  booksReducer(state = initialState, action = {}) {
     default:
       return state;
   }
-};
+}

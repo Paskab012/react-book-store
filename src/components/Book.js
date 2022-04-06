@@ -2,8 +2,9 @@ import React from 'react';
 import Proptypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/books/books';
+
 function Book({ book }) {
-    const dispatch = useDispatch();
+  const dispatch = useDispatch();
   return (
     <>
       <div className="bookCard">
