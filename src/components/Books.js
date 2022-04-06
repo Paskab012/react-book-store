@@ -1,9 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { useSelector } from 'react-redux';
 import Book from './Book';
 import AddBook from './Addbook';
 
-function Books({ books }) {
+function Books() {
+  const books = useSelector((state) => state.booksReducer);
+
   return (
     <>
       {books.map((book) => (
@@ -14,8 +16,5 @@ function Books({ books }) {
   );
 }
 
-Books.propTypes = {
-  books: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
-};
 
 export default Books;
