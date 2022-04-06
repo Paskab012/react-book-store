@@ -36,7 +36,7 @@ function Book({ book }) {
 }
 
 Book.propTypes = {
-  book: Proptypes.objectOf(Proptypes.string).isRequired,
+  book: Proptypes.objectOf(Proptypes.oneOfType([Proptypes.string, Proptypes.number])).isRequired,
 };
 
 export default Book;
