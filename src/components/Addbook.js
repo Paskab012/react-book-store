@@ -18,6 +18,7 @@ function AddBook() {
       category: categories,
 
     };
+    console.log(newBook);
     dispatch(addNewBook(newBook));
     setTitle('');
     setAuthor('');

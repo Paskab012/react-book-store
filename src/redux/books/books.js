@@ -40,7 +40,9 @@ export const addNewBook = (book) => (dispatch) => fetch(
   {
     method: 'POST',
     headers: { 'content-type': 'application/json' },
-    body: JSON.stringify(book),
+    body: JSON.stringify({
+      item_id: book.id, title: book.title, author: book.author, category: book.category,
+    }),
   },
 ).then((res) => {
   if (res.ok) {
