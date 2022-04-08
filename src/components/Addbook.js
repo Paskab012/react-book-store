@@ -18,15 +18,14 @@ function AddBook() {
       category: categories,
 
     };
-    console.log(newBook);
     dispatch(addNewBook(newBook));
     setTitle('');
     setAuthor('');
     setCategories('');
   };
   return (
-    <>
-      <h1>ADD A NEW BOOK</h1>
+    <div className="myForm">
+      <h3>ADD A NEW BOOK</h3>
       <form onSubmit={saveToStore}>
         <input type="text" placeholder="Enter the book title" value={title} onChange={(e) => setTitle(e.target.value)} required />
         <input type="text" placeholder="Enter the author" value={author} onChange={(e) => setAuthor(e.target.value)} required />
@@ -40,7 +39,7 @@ function AddBook() {
         </select>
         <button type="submit">Add Book</button>
       </form>
-    </>
+    </div>
   );
 }
 
