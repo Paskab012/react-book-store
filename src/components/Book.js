@@ -12,27 +12,38 @@ function Book({ book }) {
   };
   return (
     <>
-      <div className="bookCard">
-        <div className="bookInfo">
+      <div className="myCard">
+        <div className="myCard-info">
           <p className="genre">{book.category}</p>
           <p className="title">{book.title}</p>
           <p className="author">{book.author}</p>
-          <ul>
-            <li><button type="button">Comments</button></li>
-            <li><button type="button" value={book.id} onClick={deleteBook}>Remove</button></li>
-            <li><button type="button">Edit</button></li>
+          <ul className="card-button">
+            <li><button type="button" className="card-button">Comments</button></li>
+            <li><button type="button" className="card-button" value={book.id} onClick={deleteBook}>Remove</button></li>
+            <li><button type="button" className="card-button">Edit</button></li>
           </ul>
         </div>
         <div className="progress">
-          <div>
-            <div>chart</div>
-            <p>percentage</p>
+          <div className="chart">
+            <div className="ProgressBar">
+              <div className="wrap">
+                <div className="circle">
+                  <div className="mask half">
+                    <div className="fill" />
+                  </div>
+                  <div className="inside-circle" />
+                </div>
+              </div>
+            </div>
+            <div className="percent">
+              <h2>69%</h2>
+              <p className="status">Completed</p>
+            </div>
           </div>
-          <div>
-            <p>{book.status}</p>
-            <p>{book.category}</p>
-            <p>{book.title}</p>
-            <button type="button">Update progress</button>
+          <div className="rightSection">
+            <p className="status">currentChapter</p>
+            <p>Chapter 17</p>
+            <button className="bookButton" type="button">Update progress</button>
           </div>
         </div>
       </div>

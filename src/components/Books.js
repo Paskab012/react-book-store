@@ -7,7 +7,6 @@ import { fetchBooks } from '../redux/books/books';
 function Books() {
   const books = useSelector((state) => state.booksReducer);
   const dispatch = useDispatch();
-  console.log(books);
   useEffect(() => {
     dispatch(fetchBooks());
   }, []);
